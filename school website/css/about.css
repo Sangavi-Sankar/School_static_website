@@ -1,0 +1,144 @@
+/* ========================================================
+   ABOUT US PAGE SPECIFIC STYLES (about.css)
+   ======================================================== */
+
+/* 1. Main Banner Image */
+.hero-banner {
+    width: 100%;
+    max-height: 450px;
+    overflow: hidden;
+}
+
+.hero-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* 2. Common Content Box Style for Sections */
+.about-section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Headings in About sections */
+.about-section h2 {
+    font-size: 24px;
+    color: #168b45;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #f5c400; /* Yellow underline */
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+/* Text paragraph style */
+.about-text {
+    flex: 1;
+}
+
+.about-text p {
+    font-size: 16px;
+    color: #444444;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* ========================================================
+   SECTION 1: OVERLAPPING IMAGES (z-index example)
+   ======================================================== */
+.zindex-image-container {
+    flex: 1;
+    position: relative; /* Absolute images-ku base point aaga seyalpadum */
+    height: 320px;       /* Rendu images-um ulla fit aaga thevaiyaana height */
+}
+
+/* Mudhal Image (Adiyil irukum image) */
+.overlap-img1 {
+    width: 290px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #168b45;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 1; /* Keela iruka z-index 1 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Irandaam Image (Mela overlap aagum image) */
+.overlap-img2 {
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 4px solid #ffffff;  /* White border highlight */
+    position: absolute;
+    top: 90px;
+    left: 140px;
+    z-index: 2; /* Mela overlap aaga z-index 2 (adhiga value) */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* ========================================================
+   SECTION 2: LIBRARY DETAILS SECTION
+   ======================================================== */
+.single-image-box {
+    flex: 1;
+}
+
+.single-image-box img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #168b45;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Library details list */
+.library-info-list {
+    list-style: none; /* Default bullet dots-ai remove seiya */
+    margin-top: 15px;
+}
+
+.library-info-list li {
+    background-color: #f0fdf4; /* Light green box */
+    border-left: 4px solid #168b45;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #333333;
+}
+
+.library-info-list li strong {
+    color: #168b45;
+    display: inline-block;
+    width: 130px;
+}
+
+/* ========================================================
+   SECTION 3: COMPUTER LAB SECTION
+   ======================================================== */
+.computer-lab-section {
+    background-color: #ffffff;
+}
+
+.quote-highlight {
+    background-color: #fefce8; /* Soft warm yellow */
+    border-left: 4px solid #f5c400;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+    font-style: italic;
+    color: #444;
+}

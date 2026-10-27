@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHSS Kuruvadi - About Us</title>
+    <!-- Common Header, Nav, matrum Footer CSS -->
+    <link rel="stylesheet" href="../css/header.css">
+    <!-- About Page-ku mattumana thani CSS -->
+    <link rel="stylesheet" href="../css/about.css">
+</head>
+<body>
+
+    <!-- ==============================================
+         1. HEADER SECTION (Logo, Name, Mail, Call)
+         ============================================== -->
+    <header>
+        <!-- Left Corner: School Logo matrum School Name -->
+        <div class="header-left">
+            <div class="logo-circle"><img src="../assets/64884.jpg" alt="img"></div>
+            <div class="school-title">
+                <h1>Government Higher Secondary School</h1>
+                <h2>Kuruvadi</h2>
+            </div>
+        </div>
+
+        <!-- Right Side: Email us matrum Call us -->
+        <div class="header-contacts">
+            <div class="contact-item">
+                <h4>Email Us</h4>
+                <p>sasangaviindia@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <h4>Call Us</h4>
+                <p>+91 63843 65843</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==============================================
+         2. NAVIGATION BAR (Menu Links)
+         ============================================== -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About Us</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <!-- ==============================================
+         3. MAIN HERO BANNER (School Photo)
+         ============================================== -->
+    <div class="hero-banner">
+        <img src="../assets/hero.jpeg" alt="GHSS Kuruvadi School Campus">
+    </div>
+
+    <!-- ==============================================
+         4. SECTION 1: ABOUT OUR SCHOOL (z-index Image Effect)
+         ============================================== -->
+    <section class="about-section">
+        <!-- Oru pakkam: About School Pathina Paragraph (3 Lines) -->
+        <div class="about-text">
+            <h2>About Our School</h2>
+            <p>
+                Government Higher Secondary School, Kuruvadi was established to impart standard education to rural students with a strong moral foundation. 
+                Our experienced staff members provide comprehensive guidance that enables every student to discover their hidden talents and potential. 
+                With well-equipped classrooms and modern learning methodologies, our institution continuously strives for 100% academic results and holistic student success.
+            </p>
+        </div>
+
+        <!-- Innoru pakkam: Rendu images z-index moolamaga overlap aagum layout -->
+        <div class="zindex-image-container">
+            <!-- Mudhal image (keela irukkum) -->
+            <img src="../assets/hero.jpeg" alt="School Campus View 1" class="overlap-img1">
+            <!-- Irandaam image (mela overlap aagum - z-index athigam) -->
+            <img src="../assets/hero.jpeg" alt="School Campus View 2" class="overlap-img2">
+        </div>
+    </section>
+
+    <!-- ==============================================
+         5. SECTION 2: ABOUT OUR LIBRARY
+         ============================================== -->
+    <section class="about-section">
+        <!-- Oru pakkam: Library Image -->
+        <div class="single-image-box">
+            <img src="../assets/hero.jpeg" alt="School Library">
+        </div>
+
+        <!-- Innoru pakkam: Library Timing matrum Book Details -->
+        <div class="about-text">
+            <h2>About Our Library</h2>
+            <p>
+                Our school library is a treasure house of knowledge, encouraging reading habits and self-learning among students of all age groups.
+            </p>
+
+            <!-- Library Details List -->
+            <ul class="library-info-list">
+                <li><strong>Starting Time:</strong> 9:00 AM</li>
+                <li><strong>Closing Time:</strong> 4:30 PM</li>
+                <li><strong>Total Books Qty:</strong> 3,500+ Books</li>
+                <li><strong>Book Types:</strong> Science, Mathematics, Literature, General Knowledge, History &amp; Story Books</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ==============================================
+         6. SECTION 3: ABOUT OUR COMPUTER LAB
+         ============================================== -->
+    <section class="about-section computer-lab-section">
+        <!-- Oru pakkam: Computer Lab Paragraph -->
+        <div class="about-text">
+            <h2>About Our Computer Lab</h2>
+            <p>
+                Even in government schools, advanced computer education and modern digital facilities are provided to bridge the digital gap for poor and underprivileged students. 
+                Through practical hands-on computer training, our students gain technological confidence, develop problem-solving skills, and successfully step forward to achieve bright careers in life.
+            </p>
+            <div class="quote-highlight">
+                "Empowering rural government school children with digital technology for a prosperous future."
+            </div>
+        </div>
+
+        <!-- Innoru pakkam: Computer Lab Image -->
+        <div class="single-image-box">
+            <img src="../assets/hero.jpeg" alt="Computer Lab Facility">
+        </div>
+    </section>
+
+    <!-- ==============================================
+         7. FOOTER SECTION (Common Contact Us, Address, Details)
+         ============================================== -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><strong>Mobile:</strong> +91 63843 65843</p>
+                <p><strong>Email:</strong> sasangaviindia@gmail.com</p>
+                <p><strong>Working Hours:</strong> Mon - Fri: 9:00 AM - 4:30 PM</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>School Address</h3>
+                <p>Government Higher Secondary School,</p>
+                <p>Kuruvadi Village, Ariyalur Main Road,</p>
+                <p>Ariyalur District, Tamil Nadu - 621714.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Our Vision</h3>
+                <p>Providing free, qualitative, and modern education</p>
+                <p>to every student to build a bright future.</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Government Higher Secondary School, Kuruvadi. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

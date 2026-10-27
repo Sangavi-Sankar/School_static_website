@@ -1,0 +1,158 @@
+/* 1. Basic Reset - Browser default margins-ai remove seiya */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body font style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* ========================================================
+   HEADER SECTION (School Logo, Name, Email, Call Us)
+   ======================================================== */
+header {
+    background-color: #ffffff;
+    border-top: 6px solid #168b45; /* Pachai nira top border */
+    padding: 30px 40px;
+    display: flex;                  /* Items-ai ore line-la pakkathula vaikka */
+    align-items: center;            /* Center alignment */
+    justify-content: space-between; /*Idavelai seriyaaga pangaivida */
+    flex-wrap: wrap;                /* Screen chinnatha aana keela varum */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Left side: Logo matrum School Name */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Logo-kum Text-kum idaiye gap */
+}
+
+/* School Logo Circle */
+.logo-circle img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;              /* Vatta vadivam (Circle) aakka */
+    /* background-color: #f5c400;       Manjal niram */
+    border: 3px solid #168b45;       /* Pachai border */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px; */
+    /* color: #168b45; */
+}
+
+/* School Name Texts */
+.school-title h1 {
+    font-size: 22px;
+    color: #168b45;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.school-title h2 {
+    font-size: 16px;
+    color: #168b45;
+    font-weight: 600;
+}
+
+/* Header Right Contacts: Email & Call */
+.header-contacts {
+    display: flex;
+    gap: 35px; /* Email-kum Call-kum idaiye gap */
+}
+
+/* Email Box */
+.contact-item h4 {
+    font-size: 14px;
+    color: #168b45;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-item p {
+    font-size: 14px;
+    color: #444444;
+}
+
+/* ========================================================
+   NAVIGATION BAR (Home, About Us, Gallery)
+   ======================================================== */
+nav {
+    background-color: #168b45; /* Dark Green background */
+    display: flex;
+    justify-content: center;   /* Menu links-ai naduvil vaikka */
+    gap: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Nav links style */
+nav a {
+    color: #ffffff;
+    text-decoration: none;     /* Underline-ai remove seiya */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 25px;
+    display: inline-block;
+    transition: background-color 0.3s; /* Smooth mouse hover effect */
+}
+
+/* Mouse hover aagum pothu marum colour */
+nav a:hover {
+    background-color: #0e5c2d;
+}
+
+/*Current active page indicator */
+ 
+
+/*  footer section (Contact Us, Address, Details)  */
+footer {
+    background-color: #1f2937; /*  background color of footer */
+    color: #ffffff;          /*text color of footer */
+    padding: 40px 20px 20px 20px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Footer Heading */
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #f5c400; /* Highlight colour */
+    border-bottom: 2px solid #168b45;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.footer-section p {
+    font-size: 14px;
+    color: #d1d5db;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+/* Footer bottom copyright line */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #374151;
+    font-size: 13px;
+    color: #9ca3af;
+}
