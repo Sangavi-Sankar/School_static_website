@@ -41,15 +41,17 @@
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 10px 2px 10px rgba(0, 0, 0, 0.05);
-    flex: 1 1 0%;
+    /* flex: 1 1 0%; */
+    /* display:flex; */
 }
 
 
 /* Left side: Text Content */
 
-.home-about-text {
-    flex: 1 1 0%; /* Equal space eduthukka*/
-}
+ .home-about-text {
+         /*flex: 1 1 0%; /* Equal space eduthukka*/
+         width: 50%;
+ }
 
 .home-about-text h2 {
     font-size: 24px;
@@ -58,6 +60,7 @@
     border-bottom: 3px solid #f5c400; /* Yellow underline */
     padding-bottom: 5px; /*underlinekum headingum space*/
     display: inline-block;
+    
 }
 
 .home-about-text p {
@@ -69,7 +72,9 @@
 
 /* Right side: Image */
 .home-about-image {
-    flex: 1 1 0%; /* Equal space eduthukka*/ 
+    /*flex: 1 1 0%; /* Equal space eduthukka*/ 
+    /* display: flex; */
+    width: 50%;
 }
 
 .home-about-image img {

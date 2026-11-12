@@ -20,7 +20,7 @@
 .photo-grid {
     display: grid;
     /* Oru row-la 3 equal columns iruka */
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 25px; /* Cards-ku idaiye gap */
     margin-bottom: 50px;  /*margin bet photo grid ku video contain*/
 }

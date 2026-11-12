@@ -22,7 +22,7 @@
 }
 /* Text paragraph style */
 .about-text {
-    flex: 1 1 0%;
+    width:50%;
 }
 
 /* Headings in About sections */
@@ -45,7 +45,7 @@
 /* IMAGES (z-index example) */
 
 .zindex-image-container {
-    flex: 1 1 0%;
+    width: 50%;
     position: relative; /* Absolute images-ku base point aaga seyalpadum */
     height: 320px;       /* Rendu images-um ulla fit aaga thevaiyaana height */
 }
@@ -55,7 +55,8 @@
     width: 290px;
     height: 220px;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); 
+    
 }
 
 /* Irandaam Image (Mela overlap aagum image) */
@@ -66,13 +67,15 @@
     position:absolute; 
     top: 90px;
     left: 140px;  
-    z-index: 2; /* Mela overlap aaga z-index 2 (adhiga value) */
+    z-index: 2;/* Mela overlap aaga z-index 2 (adhiga value)*/
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
 }
 
 /* SECTION 2: LIBRARY DETAILS SECTION*/
 .single-image-box {
-    flex: 1 1 0%;
+    /* flex: 1 1 0%; */
+     width: 50%; 
+    /* display: flex; */
 }
 
 .single-image-box img {
@@ -86,6 +89,7 @@
 .library-info-list {
     list-style: none; /* Default bullet dots-ai remove seiya */
     margin-top: 15px;
+    width: 100%;
 }
 
 .library-info-list li {
@@ -108,7 +112,7 @@
 
 .quote-highlight {
     background-color: #fefce8;  
-    border-left: 4px solid #f5c400; /* Soft warm yellow */
+    border-left: 4px solid #f5c400;/* Soft warm yellow */
     padding: 15px;
     margin-top: 60px; /*space bet div & and content*/
     border-radius: 4px;
